@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/bin/mysql --port=3306 --host=127.0.0.1 -u cdb -pcdb -Dcdb
+

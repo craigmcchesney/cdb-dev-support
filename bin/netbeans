@@ -1,0 +1,4 @@
+#!/bin/sh
+
+nohup ~/cdb-dev/support-localhost/netbeans/currentNetbeans/bin/netbeans &> /dev/null &
+
