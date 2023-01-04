@@ -4,6 +4,8 @@ This repo contains utilities to support a "standard" development environment for
 
 The development environment assumes that MySQL is running on the host, so this development support environment includes creating a docker container running MariaDB so that we don't need a full database installation on the host (though you pretty much need to install that anyway so that they mysql client is available).
 
+The only other assumption is that the CDB installation directory is ~/cdb-dev, and that is only because it is referred to by scripts.  I could change that pretty easily by using an environment variable but probably won't do that since I'd need a separate configuration repo...
+
 # cdb-dev-support directories
 
 - bin: Includes utilities for creating the mariadb docker container, starting/stopping mariadb, running the mysql client as both root and "cdb" users, and starting netbeans.
